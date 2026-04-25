@@ -15,7 +15,7 @@ A multi-threaded HTTP/1.1 web server built in Python using raw sockets. No HTTPS
 web-server/
 ├── src/
 |   └──server.py          # the web server (run this)
-├── test_files/            # folder where served files are stored
+├── test_files/           # folder where served files are stored
 |   ├── index.html
 |   ├── hello.txt
 |   ├── image.jpg

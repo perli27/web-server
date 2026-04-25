@@ -12,16 +12,17 @@ A multi-threaded HTTP/1.1 web server built in Python using raw sockets. No HTTPS
 ## Files
 
 ```
-project/
-├── server.py       # the web server (run this)
-├── client.py       # test client to verify all features
-├── server.log      # auto-generated request log
-├── README.md       # this file
-└── www/            # folder where served files are stored
-    ├── index.html
-    ├── hello.txt
-    ├── image.jpg
-    └── secret/     # directory used to test 403 response
+web-server/
+├── src/
+|   └──server.py          # the web server (run this)
+├── test_files/            # folder where served files are stored
+|   ├── index.html
+|   ├── hello.txt
+|   ├── image.jpg
+|   └── secret/           # directory used to test 403 response
+├── README.md             # this file
+├── client.py             # test client to verify all features
+├── server.log            # auto-generated request log
 ```
 
 ## Requirements

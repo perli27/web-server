@@ -36,7 +36,7 @@ import email.utils
 # Server Configuration
 HOST = "127.0.0.1"
 PORT = 8080
-SERVER_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "www")
+SERVER_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "test_files")
 LOGFILE = "server.log"
 BUFFER_SIZE = 4096
 TIMEOUT = 10      # seconds before a persistent connection is closed

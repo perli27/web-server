@@ -41,7 +41,7 @@ python3 src/server.py
 You should see:
 ```
 Server running at http://127.0.0.1:8080
-Files served from: /your/path/www
+Files served from: /your/path/web-server
 Press Ctrl+C to stop
 ```
 

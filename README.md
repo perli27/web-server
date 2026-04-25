@@ -34,7 +34,7 @@ project/
 ### 1. Start the server
 
 ```bash
-python3 server.py
+python3 src/server.py
 ```
 
 You should see:

@@ -47,7 +47,7 @@ def test_keepalive():
   # send two requests on same connection
   sock.sendall(b"GET /index.html HTTP/1.1\r\nHost: localhost\r\nConnection: keep-alive\r\n\r\n")
   time.sleep(0.3)
-  sock.sendall(b"GET /test.txt HTTP/1.1\r\nHost: localhost\r\nConnection: close\r\n\r\n")
+  sock.sendall(b"GET /hello.txt HTTP/1.1\r\nHost: localhost\r\nConnection: close\r\n\r\n")
 
   response = b""
   try:

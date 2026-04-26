@@ -70,7 +70,7 @@ def main():
   send_request(
     "GET /index.html HTTP/1.1\r\nHost: localhost\r\nConnection: close\r\n\r\n",
     "GET /index.html (expect 200)"
-
+  )
   
   # GET image file
   send_request(
